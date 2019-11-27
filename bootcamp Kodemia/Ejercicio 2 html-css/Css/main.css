@@ -1,0 +1,59 @@
+    body {
+        font-family: sans-serif;
+        color: #eaeaea;
+    }
+    
+    .border {
+        border: 3px rgb(0, 4, 243);
+        background: rgb(0, 209, 205);
+        background: linear-gradient(0deg, rgba(0, 209, 205, 1) 24%, rgba(243, 0, 103, 1) 100%);
+        text-align: center;
+        padding: 13px;
+    }
+    
+    #main-header {
+        background: rgb(68, 68, 68);
+        background: radial-gradient(circle, rgba(68, 68, 68, 1) 59%, rgba(243, 0, 103, 1) 100%);
+        font-size: 26px;
+        border: 2px solid yellowgreen;
+    }
+    
+    #main-section {
+        background: rgb(0, 209, 205);
+        background: linear-gradient(90deg, rgba(0, 209, 205, 1) 32%, rgba(243, 0, 103, 1) 50%, rgba(234, 234, 234, 1) 64%);
+        width: 800px;
+        float: left;
+        color: rgb(68, 68, 68);
+        border: 2px solid yellowgreen;
+    }
+    
+    #main-heading {
+        border: 2px solid yellowgreen;
+        background: rgb(68, 68, 68);
+        background: linear-gradient(0deg, rgba(68, 68, 68, 1) 0%, rgba(61, 83, 82, 1) 64%, rgba(0, 209, 205, 1) 84%);
+        padding: 22px;
+        margin: 6px, 2px, 2px;
+        color: #eaeaea
+    }
+    
+    #main-article {
+        border: 3px solid yellowgreen;
+        margin: 1px;
+        background: rgb(68, 68, 68);
+        background: linear-gradient(0deg, rgba(68, 68, 68, 1) 23%, rgba(234, 234, 234, 1) 72%, rgba(0, 209, 205, 1) 100%);
+        padding: 22px;
+    }
+    
+    #main-aside {
+        height: 260px;
+        background: rgb(234, 234, 234);
+        background: linear-gradient(90deg, rgba(234, 234, 234, 1) 73%, rgba(243, 0, 103, 1) 83%, rgba(234, 234, 234, 1) 100%);
+        border: 3px solid yellowgreen;
+        text-align: center;
+    }
+    
+    #main-footer {
+        position: relative;
+        text-align: center;
+        border: 3px solid yellowgreen;
+    }
